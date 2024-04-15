@@ -1,0 +1,2 @@
+docker build . -t "phdbot-classroom"
+docker tag phdbot-classroom dreambrooktech/phdbot-classroom:v0.1.1

@@ -16,12 +16,12 @@ services:
   # The name of the service "phdbot-classroom"
   phdbot-classroom:
     # The docker container image with version.
-    image: dreambrooktech/phdbot-classroom:v0.1
+    image: dreambrooktech/phdbot-classroom:v0.1.1
     env: 
       - 'url=https://classroom.phdbot.cloud'
     # You can map ports here 
     expose:
-      - port: 8080
+      - port: 8022
         as: 80
         accept:
           - "classroom.phdbot.cloud"
@@ -39,9 +39,9 @@ profiles:
         cpu:
           units: 0.5 
         memory:
-          size: 1Gi 
+          size: 2Gi 
         storage:
-          size: 1Gi 
+          size: 2Gi 
 
   # profiles.placement is map of named datacenter profiles. Each profile specifies required datacenter attributes and pricing configuration for each compute profile that will be used within the datacenter. It also specifies optional list of signatures of which tenants expects audit of datacenter attributes.       
   placement:

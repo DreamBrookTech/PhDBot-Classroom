@@ -1,0 +1,346 @@
+{
+  "navDashboardItem": [
+    {
+      "link": "/profile-details",
+      "text": "Profile"
+    },
+    {
+      "link": "/notification",
+      "text": "Notification"
+    },
+    {
+      "link": "/chat-export",
+      "text": "Chat Export"
+    },
+    {
+      "link": "/appearance",
+      "text": "Appearance"
+    },
+    {
+      "link": "/plans-billing",
+      "text": "Plans and Billing"
+    },
+    {
+      "link": "/sessions",
+      "text": "Sessions"
+    },
+    {
+      "link": "/application",
+      "text": "Application"
+    },
+    {
+      "link": "/release-notes",
+      "text": "Release notes"
+    },
+    {
+      "link": "/help",
+      "text": "Help & FAQs"
+    }
+  ],
+  "toolsItem": [
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Text Generator",
+      "img": "/images/generator-icon/text_line.png",
+      "badge": "",
+      "wdt": 40
+    },
+    {
+      "link": "/vedio-generator",
+      "isDisable": false,
+      "title": "Video Generator",
+      "img": "/images/generator-icon/video-camera_line.png",
+      "badge": "Hot",
+      "wdt": 27
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "Report Generator",
+      "img": "/images/generator-icon/code-editor_line.png",
+      "badge": "",
+      "wdt": 44
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Audio Analysis",
+      "img": "/images/generator-icon/lyrics_line.png",
+      "badge": "Coming",
+      "wdt": 27
+    },
+    {
+      "link": "/image-editor",
+      "isDisable": false,
+      "title": "Image Analysis",
+      "img": "/images/generator-icon/photo-editor_line.png",
+      "badge": "Hot",
+      "wdt": 36
+    },
+    {
+      "link": "/image-generator",
+      "isDisable": false,
+      "title": "Image Generator",
+      "img": "/images/generator-icon/photo_line.png",
+      "badge": "",
+      "wdt": 36
+    },
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Speech to text",
+      "img": "/images/generator-icon/voice_line.png",
+      "badge": "",
+      "wdt": 27
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Website Generator",
+      "img": "/images/generator-icon/website-design_line.png",
+      "badge": "Coming",
+      "wdt": 36
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "Code Generator",
+      "img": "/images/generator-icon/code-editor_line.png",
+      "badge": "Hot",
+      "wdt": 44
+    },
+    {
+      "link": "/email-generator",
+      "isDisable": false,
+      "title": "Email Writer",
+      "img": "/images/generator-icon/email_line.png",
+      "badge": "",
+      "wdt": 44
+    },
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Text to speech",
+      "img": "/images/generator-icon/text-voice_line.png",
+      "badge": "",
+      "wdt": 36
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Chat with Documents",
+      "img": "/images/generator-icon/document_line.png",
+      "badge": "Coming",
+      "wdt": 31
+    }
+  ],
+  "smallNavItem": [
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/text.png",
+      "text": "Text Generator",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "/image-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/photo.png",
+      "text": "Image Generator",
+      "badge": "Hot",
+      "icon": ""
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/code-editor.png",
+      "text": "Code Generator",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "/image-editor",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/photo-editor.png",
+      "text": "Image Editor",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "/vedio-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/video-camera.png",
+      "text": "Video Generator",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "/email-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/email.png",
+      "text": "Email Generator",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "type": "default",
+      "img": "/images/generator-icon/website-design.png",
+      "text": "Website Generator",
+      "badge": "Coming",
+      "icon": ""
+    },
+
+    {
+      "link": "/profile-details",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Profile Details",
+      "badge": "",
+      "icon": "user"
+    },
+    {
+      "link": "/notification",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Notification",
+      "badge": "",
+      "icon": "shopping-bag"
+    },
+    {
+      "link": "/chat-export",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Chat Export",
+      "badge": "",
+      "icon": "users"
+    },
+    {
+      "link": "/appearance",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Apperance",
+      "badge": "",
+      "icon": "home"
+    },
+    {
+      "link": "/plans-billing",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Plans and Billing",
+      "badge": "",
+      "icon": "briefcase"
+    },
+    {
+      "link": "/sessions",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Sessions",
+      "badge": "",
+      "icon": "users"
+    },
+    {
+      "link": "/application",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Application",
+      "badge": "",
+      "icon": "list"
+    }
+  ],
+  "leftPanel": [
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Text Generator",
+      "img": "/images/generator-icon/text.png",
+      "badge": ""
+    },
+    {
+      "link": "/image-generator",
+      "isDisable": false,
+      "title": "Image Generator",
+      "img": "/images/generator-icon/photo.png",
+      "badge": "NEW"
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "Code Generator",
+      "img": "/images/generator-icon/code-editor.png",
+      "badge": ""
+    },
+    {
+      "link": "/image-editor",
+      "isDisable": false,
+      "title": "Image Analysis",
+      "img": "/images/generator-icon/photo-editor.png",
+      "badge": ""
+    },
+    {
+      "link": "/vedio-generator",
+      "isDisable": false,
+      "title": "Video Generator",
+      "img": "/images/generator-icon/video-camera.png",
+      "badge": ""
+    },
+    {
+      "link": "/email-generator",
+      "isDisable": false,
+      "title": "Email Writer",
+      "img": "/images/generator-icon/email.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Website Generator",
+      "img": "/images/generator-icon/website-design.png",
+      "badge": "Coming"
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "Report Generator",
+      "img": "/images/generator-icon/code-editor.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Audio Analysis",
+      "img": "/images/generator-icon/lyrics.png",
+      "badge": "Coming"
+    },
+    {
+      "link": "#",
+      "isDisable": false,
+      "title": "Speech to text",
+      "img": "/images/generator-icon/voice.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": false,
+      "title": "Text to speech",
+      "img": "/images/generator-icon/text-voice.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Chat with Documents",
+      "img": "/images/generator-icon/document.png",
+      "badge": "Coming"
+    }
+  ]
+}

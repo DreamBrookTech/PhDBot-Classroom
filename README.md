@@ -1,19 +1,17 @@
-# Deploying a React application on the Akash Network.
+# Deploying a PhDBot Classroom to  Akash Network.
 
-This instruction will be helpful for those intending to try out Akash Network and deploy their React application on it.
+This instruction will be helpful for deploying PhDBot Classroom to Akash Network
 
 ## To get started, you'll need:
 
-1. A code editor (I'll be using Visual Studio Code in my examples, but you can use any other).
+1. A code editor 
 2. Docker Engine installed (you can install it using this [guide](https://docs.docker.com/engine/install/) on the official Docker website). 
 3. Registration on [Docker Hub](https://hub.docker.com/)
 4. A web wallet installed such as  [Keplr](https://help.keplr.app/articles/installation-guide-for-keplr-extension-for-beginners) or [Leap](https://www.leapwallet.io/support/how-to-set-up-leap-wallet)
 
 ## Step 1 - Add a Dockerfile to the root folder of your application.
 
-For example, I'm using a pre-built and slightly modified Vite setup. You can find instructions for deploying this setup at this [link](https://vitejs.dev/guide/)
-
-So, create a file named Dockerfile in the root of your application (note that you don't need to specify an extension for this file).
+We first create Dockerfile in the root of the PhDBot Classroom project.
 
 Add the following information to it:
 
@@ -30,93 +28,42 @@ COPY . .
 
 RUN npm run build
 
-EXPOSE 8080
+EXPOSE 8022
 
 CMD [ "npm", "run", "dev" ]
 ```
 
-Let's break down what this Dockerfile does step by step. Each step in the Dockerfile is a separate layer that gets created during the image build process.
-
-```
-FROM node:18-alpine
-```
-
-First, we define the base image upon which our application will run, in this case, Node.
-
-```
-WORKDIR /app
-```
-
-Defines the working directory (WORKDIR) that will be active in the Docker container at any given time.
-
-```
-COPY package.json .
-```
-
-Copies our package.json file from the local system to the Docker image.
-
-```
-RUN npm install
-```
-
-Executes the npm install command inside the Docker image to install all dependencies of our application.
-
-```
-COPY . .
-```
-
-Copies all other files from the current directory to the Docker image.
-
-```
-RUN npm run build
-```
-
-Finally, we execute the command npm run build to create a production build of our application inside the Docker image.
-
-```
-EXPOSE 8080
-```
-
-The step where we define EXPOSE 8080 is a convention and a good practice indicating which port the program "should" run on. We can expose a different port in the Dockerfile and use a completely different port when running the image.
-
-```
-CMD [ "npm", "run", "preview" ]
-```
-
-The last command npm run dev is executed only when the container is launched. It is not part of the image creation process.
-
 ## Step 2 - Create a Docker container and upload it to Docker Hub.
 
-Before creating a Docker container, you first need to create a Docker image. To do this, open a terminal. In my example, I'll be using the bash shell. Navigate to the root folder of your project and execute the following command:
+Now we build the docker for the project
 
 ```
 docker build . -t "phdbot-classroom"
 ```
 
+![](./public/image_1.png)
+
 The above command does two things:
 
 - It creates a Docker image from the current context (i.e., from all files and folders in the current directory).
-- It gives the image the name "react-akash-project".
+- It gives the image the name "phdbot-classroom".
 
-![](./public/image_1.png)
 
 Now we can check the list of available Docker images on our local system by executing the following command:
 
 ```
 docker images
 ```
-
 ![](./public/image_2.png)
 
 Great! Now let's try running this image, which now becomes a container. Execute the following command to create a container based on the image named "react-akash-project":
 
 ```
-docker run -p 8080:8080 react-akash-project
+docker run -p 8022:8022 phdbot-classroom
 ```
-
 ![](./public/image_3.png)
 
-If all goes well, you should be able to view your application running inside the Docker container at [localhost:8080](http://localhost:8080/).
+If everything went well our PhDBot Classroom should be running from the Docker container at [localhost:8022](http://localhost:8080/).
 
 So, the next step is to upload this Docker image to Docker Hub. Before uploading the image to Docker Hub, you need to properly tag it. The command for this looks like this:
 
@@ -124,10 +71,10 @@ So, the next step is to upload this Docker image to Docker Hub. Before uploading
 docker tag image_name username/repository:tag
 ```
 
-Here's how this command will look for my case:
+Here's how this command will look in our current case:
 
 ```
-docker tag react-akash-project kapitoshko/react-akash-project:v1.0
+docker tag react-akash-project dreambrooktech/phdbot-classroom:v0.1
 ```
 
 To upload the image to Docker Hub, execute the following command:
@@ -135,13 +82,6 @@ To upload the image to Docker Hub, execute the following command:
 ```
 docker push myusername/my_image:latest
 ```
-
-For me, this command will look like:
-
-```
-docker push kapitoshko/react-akash-project:v1.0
-```
-
 ![](./public/image_4.png)
 
 Now check [Docker Hub](https://hub.docker.com/) to see if your image has appeared. Proceed to the next step.

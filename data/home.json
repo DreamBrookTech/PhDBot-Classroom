@@ -1,0 +1,220 @@
+{
+  "service": [
+    {
+      "title": "Effortless AI Agent Training",
+      "desc": "Let our battle-tested AI-powered training protocol take the hard work out of your AI-Agent development. Get started today with PhDBot.",
+      "icon": "activity",
+      "delay": 100
+    },
+    {
+      "title": "Your Use Case, Our Your PhDBot",
+      "desc": "Discover how PhDBot can be trained to transform your research and analysis ideas into insightful report and research output.",
+      "icon": "cast",
+      "delay": 100
+    },
+    {
+      "title": "AI-Powered Research",
+      "desc": "Access PhD-Level AI-Agent for your research and works.Accelerate knowledge discovery and pattern analysis.",
+      "icon": "map",
+      "delay": 200
+    },
+    {
+      "title": "One-of-a-Kind Curriculum",
+      "desc": "Your PhDBot, Your Training Pipeline, Your Metrics. Allow you to focus on what matters in creating powerful AI-Agents.",
+      "icon": "loader",
+      "delay": 100
+    },
+    {
+      "title": "Continuous Improvment",
+      "desc": "With your feedback, curriculum update, and continuous training, your PhDBot will get smarter everyday.",
+      "icon": "speaker",
+      "delay": 100
+    },
+    {
+      "title": "Your Research Assistant",
+      "desc": "With PhDBot you can focus on knowledge creation and less on the coding and implementation for tool to power your research.",
+      "icon": "terminal",
+      "delay": 200
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1.Pick/Bring a Base Model",
+      "desc": "Easily Select Base Model for Your AI-Agent."
+    },
+    {
+      "title": "2.Build Curricullum",
+      "desc": "Establishing Knowledge Base, Learning Guideline, and Assesment Protocol."
+    },
+    {
+      "title": "3.Feedback and Optimization",
+      "desc": "Continuous Training and Improvement On-the-Fly."
+    }
+  ],
+  "pricing": [
+    {
+      "title": "Individual",
+      "price": 0,
+      "text": "",
+      "subTitle": "Forever",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "3 PhDBots",
+          "isMinus": false
+        },
+        {
+          "text": "Unlimited Templates",
+          "isMinus": false
+        },
+        {
+          "text": "Decentralized Cloud",
+          "isMinus": false
+        },
+        {
+          "text": "Customizable Curriculum",
+          "isMinus": false
+        },
+        {
+          "text": "Secure Data Solution",
+          "isMinus": false
+        },
+        {
+          "text": "Access to Dev Community",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Team",
+      "price": 29.99,
+      "text": "",
+      "subTitle": "USD Per Month/Per Person",
+      "isActive": true,
+      "subItem": [
+        {
+          "text": "10 PhDBots",
+          "isMinus": false
+        },
+        {
+          "text": "Everything in Individual Packages",
+          "isMinus": false
+        },
+        {
+          "text": "Shared Team Repositories",
+          "isMinus": false
+        },
+        {
+          "text": "Project Management Integrations",
+          "isMinus": false
+        },
+        {
+          "text": "Advanced Automations",
+          "isMinus": false
+        },
+        {
+          "text": "Bonus Shared Computational Power",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Enterprise",
+      "price": 888.99,
+      "text": "",
+      "subTitle": "USD Per Month/Organization",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "Unlimited PhDBots",
+          "isMinus": false
+        },
+        {
+          "text": "Everything in Team",
+          "isMinus": false
+        },
+        {
+          "text": "Direct Support for Scaling",
+          "isMinus": false
+        },
+        {
+          "text": "Exclusive Node in Decentralized Cloud",
+          "isMinus": false
+        },
+        {
+          "text": "Custom Enterprise Solutions",
+          "isMinus": false
+        },
+        {
+          "text": "Unlimited Possibilities",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Collaboration",
+      "price": 3999.99,
+      "text": "Let's Talk",
+      "subTitle": "Forever",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "Custom Development",
+          "isMinus": false
+        },
+        {
+          "text": "Unlimited PhDBots",
+          "isMinus": false
+        },
+        {
+          "text": "Unlimited Possibilities",
+          "isMinus": false
+        },
+        {
+          "text": "Collaborative Future",
+          "isMinus": false
+        },
+        {
+          "text": "Better Tooling and Infra",
+          "isMinus": false
+        },
+        {
+          "text": "Bigger Market Share",
+          "isMinus": false
+        }
+      ]
+    }
+  ],
+  "accordion": [
+    {
+      "title": "What is PhDBot Classroom ? How does it work?",
+      "desc": "PhDBot Classroom is an AI-Agent training platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human research assistant—get data analysis, paper summary, literature review, and more!",
+      "isExpand": true
+    },
+    {
+      "title": "What kind of AI-Agent you can build with PhDBot Classroom?",
+      "desc": "PhDBot Classroom, can help you developed any kind of AI-Agents. Your Imagination is the only limit. Get new data, build new curriculum, and assign new metrics, to develop newer and better PhDBot for all purposes.",
+      "isExpand": false
+    },
+    {
+      "title": "Can I get update regularly and For how long do I get updates?",
+      "desc": "Yes, We will get update the PhDBot Classroom. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
+      "isExpand": false
+    },
+    {
+      "title": "How can I get the customer support?",
+      "desc": "After purchasing the product need you any support you can be share with us with sending mail to dev@phdbot.cloud.",
+      "isExpand": false
+    },
+    {
+      "title": "Is my data safe with PhDBot Classroom?",
+      "desc": "Feel free to toss any instruction and data at PhDBot Classroom, we utilize the latest of cyptographic and decentralized data protocol to ensure your data is secure and protected.",
+      "isExpand": false
+    },
+    {
+      "title": "Is PhDBot Classroom available in multiple languages?",
+      "desc": "Yes, PhDBot Classroom is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
+      "isExpand": false
+    }
+  ]
+}

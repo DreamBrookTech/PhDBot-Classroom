@@ -90,7 +90,7 @@ The last command npm run dev is executed only when the container is launched. It
 Before creating a Docker container, you first need to create a Docker image. To do this, open a terminal. In my example, I'll be using the bash shell. Navigate to the root folder of your project and execute the following command:
 
 ```
-docker build . -t "react-akash-project"
+docker build . -t "phdbot-classroom"
 ```
 
 The above command does two things:
